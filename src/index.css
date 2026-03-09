@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: theme('fontFamily.sans');
+    color: theme('colors.ink.900');
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* ─── Animated page background ─────────────────────────────── */
+
+.prayer-bg {
+  background: linear-gradient(
+    135deg,
+    #faf8f5 0%,
+    #f7f0e8 30%,
+    #f0edf5 65%,
+    #faf8f5 100%
+  );
+  background-size: 300% 300%;
+  animation: gradientDrift 30s ease infinite;
+}
+
+@keyframes gradientDrift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ─── Entry screen: fade in, hold, fade out (3.4s) ──────────── */
+
+@keyframes entryReveal {
+  0%   { opacity: 0; transform: translateY(12px); }
+  12%  { opacity: 1; transform: translateY(0);    }
+  80%  { opacity: 1; transform: translateY(0);    }
+  100% { opacity: 0; transform: translateY(-10px);}
+}
+
+/* ─── Entry screen SVG: progress ring fill ───────────────────── */
+/* Driven by JS-computed CIRCUMFERENCE — see EntryScreen.tsx      */
+
+@keyframes progressFill {
+  to { stroke-dashoffset: 0; }
+}
+
+/* ─── Entry screen SVG: inner breathing shapes ───────────────── */
+
+@keyframes breatheRing {
+  0%, 100% { transform: scale(1);    opacity: 0.25; }
+  50%       { transform: scale(1.4); opacity: 0.55; }
+}
+
+@keyframes breatheInner {
+  0%, 100% { transform: scale(1);    opacity: 0.4; }
+  50%       { transform: scale(1.65); opacity: 0.75; }
+}
+
+/* ─── Prayer text reveal (delay set inline per element) ──────── */
+
+@keyframes reveal {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+
+/* ─── Button: breathing pulse before press ───────────────────── */
+
+@keyframes breathe {
+  0%, 100% { box-shadow: 0 0 0 0    rgba(184, 149, 46, 0.4); }
+  50%       { box-shadow: 0 0 0 16px rgba(184, 149, 46, 0);   }
+}
+
+/* ─── Button: ripple on press ────────────────────────────────── */
+
+@keyframes ripple {
+  from { transform: scale(0.3); opacity: 0.5; }
+  to   { transform: scale(3.5); opacity: 0;   }
+}
+
+/* ─── Ambient orb drift ──────────────────────────────────────── */
+
+@keyframes orbFloat {
+  0%   { transform: translate(0px,    0px)  scale(1);    }
+  33%  { transform: translate(28px,  -22px) scale(1.04); }
+  66%  { transform: translate(-18px,  16px) scale(0.97); }
+  100% { transform: translate(0px,    0px)  scale(1);    }
+}
+
+@keyframes orbFloat2 {
+  0%   { transform: translate(0px,    0px)  scale(1);    }
+  33%  { transform: translate(-24px,  20px) scale(1.03); }
+  66%  { transform: translate(16px,  -14px) scale(0.98); }
+  100% { transform: translate(0px,    0px)  scale(1);    }
+}
+
+/* ─── Generic fade-in ────────────────────────────────────────── */
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.7s ease-out both;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+
+/* ─── Accessibility: large text ─────────────────────────────── */
+/* Increases root font size so all rem-based Tailwind sizes scale */
+
+html.large-text {
+  font-size: 112%;
+}
+
+/* ─── Accessibility: reduce motion ──────────────────────────── */
+/* Collapses all animation durations so staggered reveals appear  */
+/* instantly. The `forwards` fill mode on reveal animations means */
+/* opacity:0 elements jump directly to opacity:1.                 */
+
+html.reduce-motion *,
+html.reduce-motion *::before,
+html.reduce-motion *::after {
+  animation-duration:        0.001ms !important;
+  animation-delay:           0ms     !important;
+  animation-iteration-count: 1       !important;
+  transition-duration:       0.001ms !important;
+}
