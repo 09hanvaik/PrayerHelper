@@ -8,7 +8,31 @@
     "attribution": "Adapted from the Roman Missal",
     "source": "Ash Wednesday Collect, Roman Missal (3rd Edition)",
     "season": "lent",
-    "date": "2026-03-06"
+    "date": "2026-03-06",
+    "theme": "hunger-poverty",
+    "backgroundImage": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "lent-appeal-donate",
+        "label": "Donate to the Lent Appeal",
+        "description": "Help CAFOD reach families facing hunger and poverty",
+        "href": "https://cafod.org.uk/give/appeals/lent-appeal",
+        "variant": "primary"
+      },
+      {
+        "id": "lent-walk",
+        "label": "Join the Big Lent Walk",
+        "description": "Walk, fundraise, and fast together this Lent",
+        "href": "https://cafod.org.uk/fundraise/big-lent-walk",
+        "variant": "secondary"
+      },
+      {
+        "id": "more-prayers",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
   },
   {
     "id": "lent-2026-03-07",
@@ -19,7 +43,31 @@
     "attribution": "Inspired by CAFOD Lenten Reflection Series",
     "source": "Based on 2 Corinthians 8:9",
     "season": "lent",
-    "date": "2026-03-07"
+    "date": "2026-03-07",
+    "theme": "hunger-poverty",
+    "backgroundImage": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "lent-appeal-donate",
+        "label": "Donate to the Lent Appeal",
+        "description": "Turn your prayer into action for those who hunger",
+        "href": "https://cafod.org.uk/give/appeals/lent-appeal",
+        "variant": "primary"
+      },
+      {
+        "id": "petition-food",
+        "label": "Sign the petition",
+        "description": "Call on world leaders to end hunger for good",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "secondary"
+      },
+      {
+        "id": "newsletter",
+        "label": "Stay connected →",
+        "href": "https://cafod.org.uk/news/subscribe",
+        "variant": "ghost"
+      }
+    ]
   },
   {
     "id": "lent-2026-03-08",
@@ -30,6 +78,29 @@
     "attribution": "Attr. St. Francis of Assisi",
     "source": "Peace Prayer of Saint Francis (traditional)",
     "season": "lent",
-    "date": "2026-03-08"
+    "date": "2026-03-08",
+    "theme": "peace-conflict",
+    "backgroundImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "more-prayers-peace",
+        "label": "More prayers for peace",
+        "href": "#explore",
+        "variant": "primary"
+      },
+      {
+        "id": "newsletter-peace",
+        "label": "CAFOD newsletter",
+        "description": "Stories of peace and hope from around the world",
+        "href": "https://cafod.org.uk/news/subscribe",
+        "variant": "secondary"
+      },
+      {
+        "id": "write-mp",
+        "label": "Write to your MP →",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "ghost"
+      }
+    ]
   }
 ]

@@ -13,7 +13,7 @@
   }
 }
 
-/* ─── Animated page background ─────────────────────────────── */
+/* ─── Animated gradient background (no photo) ───────────────── */
 
 .prayer-bg {
   background: linear-gradient(
@@ -33,6 +33,35 @@
   100% { background-position: 0% 50%; }
 }
 
+/* ─── Full-screen photo scene (replaces gradient when bg image set) ─ */
+
+.prayer-scene {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.20)  0%,
+      rgba(0, 0, 0, 0.60) 55%,
+      rgba(0, 0, 0, 0.82) 100%
+    ),
+    var(--bg-image);
+  background-size: cover;
+  background-position: center;
+  background-color: #1c1a2e; /* CAFOD navy — shows while image loads */
+}
+
+/* ─── Chrome auto-hide (nav bars during prayer phases) ──────── */
+/* visibility:hidden removes elements from tab order, not just visually. */
+/* html.reduce-motion already collapses transition-duration to 0.001ms. */
+
+.chrome-fade {
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+.chrome-fade[data-hidden="true"] {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 /* ─── Entry screen: fade in, hold, fade out (3.4s) ──────────── */
 
 @keyframes entryReveal {
@@ -42,14 +71,11 @@
   100% { opacity: 0; transform: translateY(-10px);}
 }
 
-/* ─── Entry screen SVG: progress ring fill ───────────────────── */
-/* Driven by JS-computed CIRCUMFERENCE — see EntryScreen.tsx      */
+/* ─── Entry screen SVG: progress ring + breathing shapes ─────── */
 
 @keyframes progressFill {
   to { stroke-dashoffset: 0; }
 }
-
-/* ─── Entry screen SVG: inner breathing shapes ───────────────── */
 
 @keyframes breatheRing {
   0%, 100% { transform: scale(1);    opacity: 0.25; }
@@ -57,7 +83,7 @@
 }
 
 @keyframes breatheInner {
-  0%, 100% { transform: scale(1);    opacity: 0.4; }
+  0%, 100% { transform: scale(1);    opacity: 0.4;  }
   50%       { transform: scale(1.65); opacity: 0.75; }
 }
 
@@ -98,6 +124,17 @@
   100% { transform: translate(0px,    0px)  scale(1);    }
 }
 
+/* ─── CAFOD header wave (lime SVG, matches cafod.org.uk header) ─ */
+/* path from /components/static/Header/HeaderBackground.svg        */
+
+.cafod-header-wave {
+  position: absolute;
+  bottom: 0; right: 0;
+  width: 120px; height: 60px;
+  opacity: 0.55;
+  pointer-events: none;
+}
+
 /* ─── Generic fade-in ────────────────────────────────────────── */
 
 @layer utilities {
@@ -112,16 +149,12 @@
 }
 
 /* ─── Accessibility: large text ─────────────────────────────── */
-/* Increases root font size so all rem-based Tailwind sizes scale */
 
 html.large-text {
   font-size: 112%;
 }
 
 /* ─── Accessibility: reduce motion ──────────────────────────── */
-/* Collapses all animation durations so staggered reveals appear  */
-/* instantly. The `forwards` fill mode on reveal animations means */
-/* opacity:0 elements jump directly to opacity:1.                 */
 
 html.reduce-motion *,
 html.reduce-motion *::before,
