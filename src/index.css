@@ -36,6 +36,15 @@
 /* ─── Full-screen photo scene (replaces gradient when bg image set) ─ */
 
 .prayer-scene {
+  background-color: #1c1a2e; /* CAFOD navy — shows while image loads */
+  position: relative;
+}
+
+/* Background image + gradient overlay — fades in when loaded via --bg-opacity */
+.prayer-scene::before {
+  content: '';
+  position: absolute;
+  inset: 0;
   background-image:
     linear-gradient(
       to bottom,
@@ -46,7 +55,9 @@
     var(--bg-image);
   background-size: cover;
   background-position: center;
-  background-color: #1c1a2e; /* CAFOD navy — shows while image loads */
+  opacity: var(--bg-opacity, 0);
+  transition: opacity 0.8s ease-out;
+  z-index: 0;
 }
 
 /* ─── Chrome auto-hide (nav bars during prayer phases) ──────── */
@@ -124,17 +135,6 @@
   100% { transform: translate(0px,    0px)  scale(1);    }
 }
 
-/* ─── CAFOD header wave (lime SVG, matches cafod.org.uk header) ─ */
-/* path from /components/static/Header/HeaderBackground.svg        */
-
-.cafod-header-wave {
-  position: absolute;
-  bottom: 0; right: 0;
-  width: 120px; height: 60px;
-  opacity: 0.55;
-  pointer-events: none;
-}
-
 /* ─── Generic fade-in ────────────────────────────────────────── */
 
 @layer utilities {
@@ -146,6 +146,27 @@
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to   { opacity: 1; transform: translateY(0);    }
+}
+
+/* ─── Skip-to-content link ─────────────────────────────────── */
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  padding: 0.75rem 1.5rem;
+  background: #222544;
+  color: #fff;
+  font-family: theme('fontFamily.cafod');
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-decoration: none;
+  border-radius: 0 0 0.5rem 0;
+}
+
+.skip-link:focus {
+  left: 0;
 }
 
 /* ─── Accessibility: large text ─────────────────────────────── */

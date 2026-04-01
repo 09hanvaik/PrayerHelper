@@ -29,7 +29,7 @@ const ACTIONS = [
 
 export function ActScreen({ onNavigate }: ActScreenProps) {
   return (
-    <div className="min-h-screen bg-cream-100 flex flex-col items-center px-6 py-24 animate-fade-in">
+    <main id="main-content" className="min-h-screen bg-cream-100 flex flex-col items-center px-6 py-24 animate-fade-in" aria-label="Faith in action">
       <div className="w-full max-w-prayer">
         <p className="text-[11px] font-cafod font-semibold tracking-widest uppercase text-ink-300 mb-4 text-center">
           Act
@@ -63,6 +63,6 @@ export function ActScreen({ onNavigate }: ActScreenProps) {
           </button>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

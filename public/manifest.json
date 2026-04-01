@@ -1,0 +1,27 @@
+{
+  "name": "Prayer of the Day — CAFOD",
+  "short_name": "CAFOD Prayer",
+  "description": "A daily prayer for reflection and renewal. Join others in prayer.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#222544",
+  "theme_color": "#222544",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

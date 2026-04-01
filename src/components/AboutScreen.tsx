@@ -6,7 +6,7 @@ interface AboutScreenProps {
 
 export function AboutScreen({ onNavigate }: AboutScreenProps) {
   return (
-    <div className="min-h-screen bg-cream-100 flex flex-col items-center px-6 py-24 animate-fade-in">
+    <main id="main-content" className="min-h-screen bg-cream-100 flex flex-col items-center px-6 py-24 animate-fade-in" aria-label="About CAFOD">
       <div className="w-full max-w-prayer text-center">
         <p className="text-[11px] font-cafod font-semibold tracking-widest uppercase text-ink-300 mb-4">
           About
@@ -51,6 +51,6 @@ export function AboutScreen({ onNavigate }: AboutScreenProps) {
           </button>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

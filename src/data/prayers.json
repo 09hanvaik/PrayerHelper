@@ -102,5 +102,1329 @@
         "variant": "ghost"
       }
     ]
+  },
+  {
+    "id": "lent-fasting",
+    "title": "A Prayer for True Fasting",
+    "text": "Lord God, you call us to fast —\nnot merely from food, but from indifference.\n\nTeach us the fast that you desire:\nto loose the chains of injustice,\nto untie the cords of the yoke,\nto set the oppressed free\nand break every burden.\n\nMay our hunger remind us of those\nwho have no choice but to go without.\nMay our emptiness make room\nfor your Spirit to work in us.\n\nWe ask this through Christ our Lord.\n\nAmen.",
+    "scripture": "Is not this the kind of fasting I have chosen: to loose the chains of injustice and untie the cords of the yoke, to set the oppressed free and break every yoke? — Isaiah 58:6",
+    "reflection": "Beyond food, what habit or attitude is God inviting me to fast from?",
+    "attribution": "Based on Isaiah 58",
+    "source": "CAFOD Lenten Reflection",
+    "season": "lent",
+    "theme": "hunger-poverty",
+    "backgroundImage": "https://images.unsplash.com/photo-1501004318855-b174af86b0d4?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "lent-appeal",
+        "label": "Donate to the Lent Appeal",
+        "description": "Help CAFOD reach families facing hunger",
+        "href": "https://cafod.org.uk/give/appeals/lent-appeal",
+        "variant": "primary"
+      },
+      {
+        "id": "lent-walk-fast",
+        "label": "Join the Big Lent Walk",
+        "href": "https://cafod.org.uk/fundraise/big-lent-walk",
+        "variant": "secondary"
+      },
+      {
+        "id": "more-prayers-fast",
+        "label": "More Lenten prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "lent-water",
+    "title": "For Clean Water",
+    "text": "Creator God, you made water the source of all life —\nin the beginning, your Spirit moved over the waters;\nin baptism, you make us new.\n\nToday we pray for the millions who walk miles\nfor water that may make them sick.\nWe pray for mothers who watch their children thirst.\nWe pray for communities whose rivers have dried\nor whose wells have been poisoned.\n\nGive us the will to act,\nthe generosity to share,\nand the courage to demand justice\nfor every person denied this most basic gift.\n\nThrough Christ, the living water.\n\nAmen.",
+    "scripture": "Let justice roll on like a river, righteousness like a never-failing stream! — Amos 5:24",
+    "reflection": "How can I use the resources I have more justly today?",
+    "attribution": "CAFOD Water Campaign Prayer",
+    "source": "Inspired by CAFOD Clean Water Appeal",
+    "season": "lent",
+    "theme": "hunger-poverty",
+    "backgroundImage": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "donate-water",
+        "label": "Support clean water projects",
+        "description": "Help communities access safe water",
+        "href": "https://cafod.org.uk/give",
+        "variant": "primary"
+      },
+      {
+        "id": "campaign-water",
+        "label": "Join the campaign",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "secondary"
+      },
+      {
+        "id": "more-lent",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "lent-mercy",
+    "title": "A Prayer for Mercy",
+    "text": "Lord Jesus Christ, Son of the living God,\nhave mercy on me, a sinner.\n\nIn this season of repentance, I come to you\nnot with the confidence of the righteous\nbut with the humility of the tax collector\nwho could not even lift his eyes to heaven.\n\nYou know my weakness.\nYou know every time I have chosen comfort over compassion,\nsilence over solidarity,\nfear over faith.\n\nMeet me here in my poverty,\nand by your mercy, make me rich\nin love, in hope, and in courage.\n\nAmen.",
+    "scripture": "The tax collector stood at a distance. He would not even look up to heaven, but beat his breast and said, 'God, have mercy on me, a sinner.' — Luke 18:13",
+    "reflection": "Where do I most need God's mercy in my life right now?",
+    "attribution": "Based on the Jesus Prayer and Luke 18",
+    "source": "Traditional Eastern Christian prayer",
+    "season": "lent",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "more-prayers-mercy",
+        "label": "More Lenten prayers",
+        "href": "#explore",
+        "variant": "primary"
+      },
+      {
+        "id": "newsletter-mercy",
+        "label": "Weekly prayer emails",
+        "description": "CAFOD's Friday gospel reflection",
+        "href": "https://cafod.org.uk/news/subscribe",
+        "variant": "secondary"
+      },
+      {
+        "id": "donate-mercy",
+        "label": "Support CAFOD →",
+        "href": "https://cafod.org.uk/give",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "lent-desert",
+    "title": "Prayer in the Desert",
+    "text": "God of the wilderness,\nyou led your people through the desert\nand you led your Son into forty days of testing.\n\nLead me now into the desert of Lent —\nnot to punish, but to prepare;\nnot to deprive, but to reveal\nwhat I truly need.\n\nStrip away the noise that drowns your voice.\nStrip away the comfort that dulls my heart.\nLeave me with nothing but your presence,\nand let that be enough.\n\nAmen.",
+    "scripture": "Then Jesus was led by the Spirit into the wilderness to be tempted by the devil. After fasting forty days and forty nights, he was hungry. — Matthew 4:1–2",
+    "reflection": "What noise in my life might God be asking me to turn down this Lent?",
+    "attribution": "Lenten Desert Meditation",
+    "source": "CAFOD Lent Reflections",
+    "season": "lent",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "lent-walk-desert",
+        "label": "Walk through Lent with CAFOD",
+        "description": "Join the Big Lent Walk",
+        "href": "https://cafod.org.uk/fundraise/big-lent-walk",
+        "variant": "primary"
+      },
+      {
+        "id": "newsletter-desert",
+        "label": "Daily Lent reflections",
+        "href": "https://cafod.org.uk/news/subscribe",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-desert",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "lent-cross",
+    "title": "Before the Cross",
+    "text": "Lord Jesus,\nas I stand before your Cross\nI see the cost of love without limit.\n\nYou stretched out your arms\nto embrace the whole world —\nthe forgotten, the condemned, the afraid.\n\nHelp me not to look away.\nHelp me not to rush past suffering\non my way to somewhere more comfortable.\n\nGive me the courage to stay,\nto witness,\nand to carry what I can\nof the burdens others bear.\n\nAmen.",
+    "scripture": "Near the cross of Jesus stood his mother. — John 19:25",
+    "reflection": "What cross am I being invited to carry alongside someone else?",
+    "attribution": "Stations of the Cross Meditation",
+    "source": "CAFOD Way of the Cross",
+    "season": "lent",
+    "theme": "hunger-poverty",
+    "backgroundImage": "https://images.unsplash.com/photo-1548407260-da850faa41e8?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "donate-cross",
+        "label": "Stand with those who suffer",
+        "description": "Give to CAFOD's Lent Appeal",
+        "href": "https://cafod.org.uk/give/appeals/lent-appeal",
+        "variant": "primary"
+      },
+      {
+        "id": "campaign-cross",
+        "label": "Campaign for justice",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-cross",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "lent-forgiveness",
+    "title": "A Prayer for Forgiveness",
+    "text": "Merciful Father,\nwe confess that we have sinned against you\nand against our neighbour.\n\nWe have hoarded when we could have shared.\nWe have spoken when we should have listened.\nWe have judged when we should have loved.\n\nIn your great mercy,\nforgive what we have been,\namend what we are,\nand direct what we shall be —\nthat we may delight in your will\nand walk in your ways,\nthrough Jesus Christ our Lord.\n\nAmen.",
+    "scripture": "If we confess our sins, he is faithful and just and will forgive us our sins and purify us from all unrighteousness. — 1 John 1:9",
+    "reflection": "Is there someone I need to forgive, or someone from whom I need to seek forgiveness?",
+    "attribution": "Adapted from the Book of Common Prayer",
+    "source": "General Confession, Book of Common Prayer",
+    "season": "lent",
+    "theme": "peace-conflict",
+    "backgroundImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "more-lent-forgiveness",
+        "label": "More Lenten prayers",
+        "href": "#explore",
+        "variant": "primary"
+      },
+      {
+        "id": "donate-forgiveness",
+        "label": "Support reconciliation work",
+        "description": "CAFOD peacebuilding programmes",
+        "href": "https://cafod.org.uk/give",
+        "variant": "secondary"
+      },
+      {
+        "id": "newsletter-forgiveness",
+        "label": "Weekly reflections →",
+        "href": "https://cafod.org.uk/news/subscribe",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "lent-poor",
+    "title": "For the Poorest of the Poor",
+    "text": "God of justice and compassion,\nwe pray for those who live in extreme poverty —\nthe families who go to sleep hungry,\nthe children who have never seen a doctor,\nthe communities without clean water or shelter.\n\nOpen our hearts to their cry.\nOpen our hands to share what we have.\nOpen our mouths to speak for those\nwhose voices are ignored.\n\nMay our Lenten sacrifices be more than gestures —\nmay they be the beginning of a more just life.\n\nThrough Christ, who became poor for our sake.\n\nAmen.",
+    "scripture": "Speak up for those who cannot speak for themselves, for the rights of all who are destitute. — Proverbs 31:8",
+    "reflection": "What small sacrifice can I make today that makes a real difference to someone in need?",
+    "attribution": "CAFOD Lenten Prayer for the Poor",
+    "source": "Inspired by Catholic Social Teaching",
+    "season": "lent",
+    "theme": "hunger-poverty",
+    "backgroundImage": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "donate-poor",
+        "label": "Give to the Lent Appeal",
+        "description": "Every gift helps families overcome poverty",
+        "href": "https://cafod.org.uk/give/appeals/lent-appeal",
+        "variant": "primary"
+      },
+      {
+        "id": "write-mp-poor",
+        "label": "Write to your MP",
+        "description": "Urge action on global poverty",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-poor",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "lent-light",
+    "title": "A Prayer for Light in Darkness",
+    "text": "Lord, you are the light of the world,\nand in you there is no darkness at all.\n\nShine into the dark places of our world:\nwhere war destroys families,\nwhere hunger weakens bodies,\nwhere loneliness breaks spirits.\n\nShine into the dark places of my heart:\nwhere fear holds me back,\nwhere pride keeps me small,\nwhere doubt clouds my vision.\n\nBe my light this Lent.\nBe my guide through the valley.\nBring me safely to Easter morning.\n\nAmen.",
+    "scripture": "The people walking in darkness have seen a great light; on those living in the land of deep darkness a light has dawned. — Isaiah 9:2",
+    "reflection": "Where is God shining light into my life that I have been reluctant to see?",
+    "attribution": "Lenten Prayer for Illumination",
+    "source": "CAFOD Prayer Resources",
+    "season": "lent",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "newsletter-light",
+        "label": "Receive weekly reflections",
+        "description": "CAFOD's Friday gospel reflection by email",
+        "href": "https://cafod.org.uk/news/subscribe",
+        "variant": "primary"
+      },
+      {
+        "id": "donate-light",
+        "label": "Bring light to others",
+        "description": "Support CAFOD's work worldwide",
+        "href": "https://cafod.org.uk/give",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-light",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "lent-refugees",
+    "title": "For Refugees and the Displaced",
+    "text": "God of all peoples,\nwe pray for those who have been forced to flee —\nfrom war, from persecution, from disaster.\n\nWe remember the families sleeping in camps,\nthe children who cannot go to school,\nthe parents who fear for tomorrow.\n\nJesus, you were a refugee in Egypt.\nYou know what it means to have no home.\nTeach us to welcome the stranger,\nto open doors where others build walls,\nand to see in every refugee\nthe face of Christ.\n\nAmen.",
+    "scripture": "For I was hungry and you gave me something to eat, I was thirsty and you gave me something to drink, I was a stranger and you invited me in. — Matthew 25:35",
+    "reflection": "How can I be more welcoming to those who are new or displaced in my community?",
+    "attribution": "CAFOD Refugee Prayer",
+    "source": "Based on Matthew 25 and Catholic Social Teaching on Migration",
+    "season": "lent",
+    "theme": "emergency-crisis",
+    "backgroundImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "donate-refugees",
+        "label": "Support refugee families",
+        "description": "Give to CAFOD's emergency response",
+        "href": "https://cafod.org.uk/give",
+        "variant": "primary"
+      },
+      {
+        "id": "campaign-refugees",
+        "label": "Campaign for safe routes",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-refugees",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "lent-creation",
+    "title": "For the Care of Creation",
+    "text": "Loving Creator,\nyou looked upon all you had made and called it good.\nForgive us for the harm we have done to your creation.\n\nThe forests burn. The oceans choke.\nThe poorest communities bear the heaviest cost\nof a crisis they did not cause.\n\nGrant us wisdom to live differently —\nto consume less, to share more,\nto treat the earth not as a resource to exploit\nbut as a gift to cherish.\n\nMay we hear the cry of the earth\nand the cry of the poor as one.\n\nAmen.",
+    "scripture": "The earth is the Lord's, and everything in it, the world, and all who live in it. — Psalm 24:1",
+    "reflection": "What is one change I can make this week to live more gently on the earth?",
+    "attribution": "Inspired by Laudato Si'",
+    "source": "Pope Francis, Laudato Si' (2015)",
+    "season": "lent",
+    "theme": "environment",
+    "backgroundImage": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "campaign-climate",
+        "label": "Join the climate campaign",
+        "description": "Call for climate justice with CAFOD",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "primary"
+      },
+      {
+        "id": "donate-creation",
+        "label": "Support green communities",
+        "href": "https://cafod.org.uk/give",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-creation",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "lent-simplicity",
+    "title": "A Prayer for Simplicity",
+    "text": "Lord, in a world of excess,\nteach me the grace of enough.\n\nFree me from the restless need for more —\nmore possessions, more approval, more control.\n\nHelp me to travel light through this Lent,\ncarrying only what I need:\nyour love, your word, and the companionship\nof those who walk beside me.\n\nLet me find abundance in simplicity\nand richness in giving things away.\n\nThrough Christ, who had nowhere to lay his head.\n\nAmen.",
+    "scripture": "Do not store up for yourselves treasures on earth, where moths and vermin destroy. But store up for yourselves treasures in heaven. — Matthew 6:19–20",
+    "reflection": "What possession or habit is cluttering my relationship with God?",
+    "attribution": "Lenten Prayer for Simplicity",
+    "source": "CAFOD Live Simply Resources",
+    "season": "lent",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "live-simply",
+        "label": "Take the Live Simply pledge",
+        "description": "Live simply, sustainably, and in solidarity",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "primary"
+      },
+      {
+        "id": "donate-simplicity",
+        "label": "Give from your surplus",
+        "href": "https://cafod.org.uk/give",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-simplicity",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "lent-solidarity",
+    "title": "A Prayer of Solidarity",
+    "text": "God of all nations,\nwe are one human family,\nbound together by your love.\n\nWhen our brothers and sisters in distant lands suffer,\nwe suffer too — even when we do not feel it.\nWhen they rejoice, their joy is ours to share.\n\nBreak through the barriers of distance and difference\nthat allow us to forget we belong to each other.\n\nMake us true neighbours —\nnot by geography, but by grace.\n\nThrough Christ, who crossed every boundary to reach us.\n\nAmen.",
+    "scripture": "There is neither Jew nor Gentile, neither slave nor free, nor is there male and female, for you are all one in Christ Jesus. — Galatians 3:28",
+    "reflection": "Who is my neighbour that I have been slow to notice?",
+    "attribution": "CAFOD Solidarity Prayer",
+    "source": "Catholic Social Teaching: Solidarity",
+    "season": "lent",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "donate-solidarity",
+        "label": "Stand in solidarity",
+        "description": "Support CAFOD's work across the world",
+        "href": "https://cafod.org.uk/give",
+        "variant": "primary"
+      },
+      {
+        "id": "newsletter-solidarity",
+        "label": "Stories from our partners",
+        "href": "https://cafod.org.uk/news/subscribe",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-solidarity",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "lent-healing",
+    "title": "A Prayer for Healing",
+    "text": "Lord Jesus, healer of the sick,\nwe bring before you all who suffer in body, mind, or spirit.\n\nTouch those who are ill with your gentle hand.\nComfort those who grieve with your presence.\nStrengthen those who care for others\nwhen their own strength is failing.\n\nWhere medicine cannot reach,\nlet your love be enough.\nWhere words cannot comfort,\nlet your silence speak peace.\n\nWe pray especially for communities\nwithout access to healthcare —\nwhere distance, poverty, or conflict\nstands between the sick and the help they need.\n\nAmen.",
+    "scripture": "He heals the broken-hearted and binds up their wounds. — Psalm 147:3",
+    "reflection": "Who needs my prayer or presence in their suffering today?",
+    "attribution": "Prayer for the Sick",
+    "source": "CAFOD Health Programme Prayers",
+    "season": "lent",
+    "theme": "hunger-poverty",
+    "backgroundImage": "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "donate-healing",
+        "label": "Support healthcare access",
+        "description": "Help communities access medical care",
+        "href": "https://cafod.org.uk/give",
+        "variant": "primary"
+      },
+      {
+        "id": "campaign-healing",
+        "label": "Campaign for health equity",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-healing",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "lent-courage",
+    "title": "A Prayer for Courage",
+    "text": "God of the prophets,\nyou gave courage to those who spoke truth to power —\nto Moses before Pharaoh,\nto Esther before the king,\nto Jesus before Pilate.\n\nGive me courage, too.\n\nCourage to speak up when injustice is present.\nCourage to act when action is costly.\nCourage to love when love is risky.\nCourage to hope when the world says it is foolish.\n\nI may not change the world today,\nbut let me not be silent.\n\nAmen.",
+    "scripture": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go. — Joshua 1:9",
+    "reflection": "What truth am I being called to speak, even if it is uncomfortable?",
+    "attribution": "Prayer for Prophetic Courage",
+    "source": "CAFOD Advocacy Resources",
+    "season": "lent",
+    "theme": "peace-conflict",
+    "backgroundImage": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "write-mp-courage",
+        "label": "Write to your MP",
+        "description": "Speak up for the world's most vulnerable",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "primary"
+      },
+      {
+        "id": "donate-courage",
+        "label": "Support CAFOD's mission",
+        "href": "https://cafod.org.uk/give",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-courage",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "lent-children",
+    "title": "For the Children of the World",
+    "text": "Loving God, protector of the young,\nwe lift up to you every child in danger:\n\nChildren who are hungry.\nChildren who are frightened.\nChildren who work when they should play.\nChildren who have lost their parents.\nChildren who have never known safety.\n\nYou said: 'Let the little children come to me.'\nHelp us to be your hands —\nto feed, to shelter, to educate,\nand to fight for a world where every child\ncan grow up free and loved.\n\nAmen.",
+    "scripture": "Jesus said, 'Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these.' — Matthew 19:14",
+    "reflection": "How can I help create a safer, more just world for children?",
+    "attribution": "CAFOD Children's Prayer",
+    "source": "CAFOD Education Programme",
+    "season": "lent",
+    "theme": "hunger-poverty",
+    "backgroundImage": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "donate-children",
+        "label": "Protect children worldwide",
+        "description": "Give to CAFOD's work with families",
+        "href": "https://cafod.org.uk/give",
+        "variant": "primary"
+      },
+      {
+        "id": "campaign-children",
+        "label": "Campaign for children's rights",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-children",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "lent-gratitude",
+    "title": "A Lenten Prayer of Gratitude",
+    "text": "Lord, even in this season of sacrifice,\nI come to you first with thanks.\n\nThank you for the breath in my lungs.\nThank you for the people who love me.\nThank you for the food on my table\nand the roof over my head.\n\nHelp me to hold these gifts lightly,\nknowing they are not mine to keep\nbut yours to share.\n\nMay my gratitude overflow into generosity,\nmy abundance into justice,\nmy prayer into action.\n\nAmen.",
+    "scripture": "Give thanks to the Lord, for he is good; his love endures for ever. — Psalm 107:1",
+    "reflection": "What am I most grateful for today, and how can I share that gift?",
+    "attribution": "Lenten Gratitude Prayer",
+    "source": "CAFOD Prayer Resources",
+    "season": "lent",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "donate-gratitude",
+        "label": "Give from gratitude",
+        "description": "Share your blessings through CAFOD",
+        "href": "https://cafod.org.uk/give",
+        "variant": "primary"
+      },
+      {
+        "id": "newsletter-gratitude",
+        "label": "Stories of hope",
+        "href": "https://cafod.org.uk/news/subscribe",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-gratitude",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "lent-patience",
+    "title": "A Prayer for Patience",
+    "text": "Lord, teach me to wait.\n\nIn a world that demands everything now,\ngive me the patience to sit with uncertainty,\nto endure difficulty without rushing to escape,\nand to trust your timing even when I cannot see the plan.\n\nHelp me to be patient with others —\nespecially those who frustrate me,\nchallenge me, or simply move at a different pace.\n\nHelp me to be patient with myself —\nwith my failures, my slow growth,\nmy recurring weaknesses.\n\nAnd help me to wait on you, Lord,\nknowing that those who wait\nshall renew their strength.\n\nAmen.",
+    "scripture": "But those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint. — Isaiah 40:31",
+    "reflection": "Where am I being invited to practise patience today?",
+    "attribution": "Lenten Prayer for Patience",
+    "source": "Based on Isaiah 40",
+    "season": "lent",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "more-prayers-patience",
+        "label": "Continue in prayer",
+        "href": "#explore",
+        "variant": "primary"
+      },
+      {
+        "id": "newsletter-patience",
+        "label": "Weekly reflections",
+        "description": "CAFOD's Friday gospel reflection",
+        "href": "https://cafod.org.uk/news/subscribe",
+        "variant": "secondary"
+      },
+      {
+        "id": "donate-patience",
+        "label": "Support CAFOD →",
+        "href": "https://cafod.org.uk/give",
+        "variant": "ghost"
+      }
+    ]
+  },
+
+  {
+    "id": "easter-risen",
+    "title": "He Is Risen!",
+    "text": "Alleluia! Christ is risen!\n\nGod of life, on this glorious day\nyou rolled away the stone\nand brought your Son from death to life.\n\nFill us with Easter joy —\nnot a fleeting happiness,\nbut the deep, unshakeable knowledge\nthat love is stronger than death,\nhope is stronger than despair,\nand light will always overcome the darkness.\n\nSend us out as witnesses to the resurrection,\ncarrying your good news to a world in need.\n\nAlleluia! He is risen indeed!\n\nAmen.",
+    "scripture": "He is not here; he has risen, just as he said. Come and see the place where he lay. — Matthew 28:6",
+    "reflection": "Where do I see signs of resurrection — new life breaking through — in my world today?",
+    "attribution": "Easter Morning Prayer",
+    "source": "Based on the Easter Vigil Liturgy",
+    "season": "easter",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "newsletter-easter",
+        "label": "Easter reflections",
+        "description": "Daily readings for the Easter season",
+        "href": "https://cafod.org.uk/news/subscribe",
+        "variant": "primary"
+      },
+      {
+        "id": "donate-easter",
+        "label": "Celebrate by giving",
+        "href": "https://cafod.org.uk/give",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-easter",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "easter-hope",
+    "title": "A Prayer of Easter Hope",
+    "text": "God of all hope,\nyou are the one who makes all things new.\n\nIn the risen Christ we see your promise:\nthat no suffering is the final word,\nthat no injustice lasts for ever,\nthat no grave can hold your love.\n\nPlant this Easter hope deep within us.\nLet it grow even when the soil seems dry.\nLet it bloom even in the harshest conditions.\n\nAnd may our hope be contagious —\nspreading from heart to heart,\ncommunity to community,\nuntil the whole world knows\nthat death has been defeated.\n\nAmen.",
+    "scripture": "I am making everything new! — Revelation 21:5",
+    "reflection": "What situation in my life needs the hope of Easter most?",
+    "attribution": "Easter Season Prayer",
+    "source": "CAFOD Easter Resources",
+    "season": "easter",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1431794062232-2a99a5431c6c?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "donate-hope",
+        "label": "Bring hope to others",
+        "description": "Support CAFOD's work of transformation",
+        "href": "https://cafod.org.uk/give",
+        "variant": "primary"
+      },
+      {
+        "id": "campaign-hope",
+        "label": "Act on your hope",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-hope",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "easter-peace",
+    "title": "The Peace of the Risen Christ",
+    "text": "Lord Jesus, you stood among your disciples\nand said: 'Peace be with you.'\n\nSpeak that same peace into our troubled world.\nSpeak it into war zones and refugee camps.\nSpeak it into divided communities and broken families.\nSpeak it into my own anxious heart.\n\nYour peace is not the absence of conflict\nbut the presence of your love\nin the midst of all things.\n\nGrant us that peace —\npeace that the world cannot give\nand the world cannot take away.\n\nAmen.",
+    "scripture": "Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid. — John 14:27",
+    "reflection": "Where am I being called to be a channel of Christ's peace?",
+    "attribution": "Easter Peace Prayer",
+    "source": "Based on John 20:19-21",
+    "season": "easter",
+    "theme": "peace-conflict",
+    "backgroundImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "campaign-peace",
+        "label": "Campaign for peace",
+        "description": "Join CAFOD's peacebuilding work",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "primary"
+      },
+      {
+        "id": "donate-peace",
+        "label": "Support peace programmes",
+        "href": "https://cafod.org.uk/give",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-peace",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "easter-emmaus",
+    "title": "The Road to Emmaus",
+    "text": "Lord Jesus, you walked with two disciples\non the road to Emmaus.\nThey were downcast, confused, grieving —\nand they did not recognise you.\n\nHow often do I walk that same road?\nHow often are you beside me\nand I do not see you?\n\nOpen my eyes, Lord.\nHelp me to recognise you\nin the stranger on the road,\nin the breaking of the bread,\nin the Scripture that sets my heart on fire.\n\nStay with me, Lord,\nfor it is nearly evening\nand the day is almost over.\n\nAmen.",
+    "scripture": "Were not our hearts burning within us while he talked with us on the road and opened the Scriptures to us? — Luke 24:32",
+    "reflection": "When has God been present in my life without me realising it at the time?",
+    "attribution": "Emmaus Prayer",
+    "source": "Based on Luke 24:13-35",
+    "season": "easter",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1510797215324-95aa89f43c33?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "newsletter-emmaus",
+        "label": "Walk with CAFOD",
+        "description": "Weekly gospel reflections by email",
+        "href": "https://cafod.org.uk/news/subscribe",
+        "variant": "primary"
+      },
+      {
+        "id": "donate-emmaus",
+        "label": "Support CAFOD's journey",
+        "href": "https://cafod.org.uk/give",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-emmaus",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "easter-new-creation",
+    "title": "Prayer for a New Creation",
+    "text": "Creator God,\nin the resurrection of Jesus\nyou have begun the renewal of all creation.\n\nWhere we see destruction, you see possibility.\nWhere we see endings, you see beginnings.\nWhere we see death, you see the seed of new life.\n\nHelp us to join in your work of renewal —\nto care for the earth, to restore what is broken,\nto plant seeds of hope in barren ground.\n\nMay we live as Easter people,\nalways looking for signs of your new creation\nbreaking through.\n\nAmen.",
+    "scripture": "Therefore, if anyone is in Christ, the new creation has come: the old has gone, the new is here! — 2 Corinthians 5:17",
+    "reflection": "What is one way I can participate in God's renewal of creation this week?",
+    "attribution": "Easter Creation Prayer",
+    "source": "Inspired by Laudato Si' and Easter theology",
+    "season": "easter",
+    "theme": "environment",
+    "backgroundImage": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "campaign-creation-easter",
+        "label": "Care for creation",
+        "description": "Join CAFOD's climate campaign",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "primary"
+      },
+      {
+        "id": "donate-creation-easter",
+        "label": "Support green communities",
+        "href": "https://cafod.org.uk/give",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-creation-easter",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+
+  {
+    "id": "advent-waiting",
+    "title": "A Prayer of Waiting",
+    "text": "Lord, we wait for you.\n\nIn this season of Advent,\nwhen the days are short and the nights are long,\nwe light our candles against the darkness\nand trust that you are coming.\n\nTeach us the holy art of waiting —\nnot passive, but expectant;\nnot idle, but preparing;\nnot anxious, but hopeful.\n\nAs Mary waited,\nas the prophets waited,\nas the whole creation groans in anticipation,\nwe wait for you, Emmanuel —\nGod with us.\n\nCome, Lord Jesus.\n\nAmen.",
+    "scripture": "Therefore the Lord himself will give you a sign: the virgin will conceive and give birth to a son, and will call him Immanuel. — Isaiah 7:14",
+    "reflection": "What am I waiting for, and how can I wait with more trust?",
+    "attribution": "Advent Waiting Prayer",
+    "source": "Based on the O Antiphons and Isaiah 7",
+    "season": "advent",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1482235225574-c37692835cf3?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "newsletter-advent",
+        "label": "Daily Advent reflections",
+        "description": "Prepare for Christmas with CAFOD",
+        "href": "https://cafod.org.uk/news/subscribe",
+        "variant": "primary"
+      },
+      {
+        "id": "donate-advent",
+        "label": "World Gifts catalogue",
+        "description": "Give a gift that changes lives",
+        "href": "https://cafod.org.uk/give",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-advent",
+        "label": "More Advent prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "advent-light",
+    "title": "O Come, O Come, Emmanuel",
+    "text": "O come, O come, Emmanuel,\nand ransom captive Israel.\n\nLord, we light this Advent candle\nas a sign of your coming light.\nIn a world still held captive\nby injustice, greed, and violence,\nwe cry out for your deliverance.\n\nCome to the places of deepest darkness.\nCome to the communities forgotten by the powerful.\nCome to the hearts that have given up hope.\n\nRejoice! Rejoice! Emmanuel\nshall come to thee, O Israel.\n\nAmen.",
+    "scripture": "The people walking in darkness have seen a great light; on those living in the land of deep darkness a light has dawned. — Isaiah 9:2",
+    "reflection": "Where in the world does God's light need to break through most urgently?",
+    "attribution": "Based on O Antiphons",
+    "source": "Traditional Advent Hymn (12th century)",
+    "season": "advent",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1512389142860-9c449e58a814?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "donate-advent-light",
+        "label": "Be a light to others",
+        "description": "CAFOD World Gifts — meaningful presents",
+        "href": "https://cafod.org.uk/give",
+        "variant": "primary"
+      },
+      {
+        "id": "campaign-advent",
+        "label": "Campaign for change",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-advent-light",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "advent-mary",
+    "title": "The Magnificat — Mary's Song",
+    "text": "My soul magnifies the Lord,\nand my spirit rejoices in God my Saviour.\n\nFor he has looked with favour\non the lowliness of his servant.\nSurely, from now on all generations\nwill call me blessed.\n\nHe has scattered the proud in the thoughts of their hearts.\nHe has brought down the powerful from their thrones,\nand lifted up the lowly.\nHe has filled the hungry with good things,\nand sent the rich away empty.\n\nGod of Mary's song,\nmake us instruments of this holy revolution —\nwhere the hungry are fed,\nthe proud are humbled,\nand the lowly are lifted.\n\nAmen.",
+    "scripture": "He has filled the hungry with good things but has sent the rich away empty. — Luke 1:53",
+    "reflection": "How does Mary's radical song challenge my own comfortable faith?",
+    "attribution": "Based on the Magnificat",
+    "source": "Luke 1:46-55",
+    "season": "advent",
+    "theme": "hunger-poverty",
+    "backgroundImage": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "donate-magnificat",
+        "label": "Feed the hungry",
+        "description": "Support CAFOD's food programmes",
+        "href": "https://cafod.org.uk/give",
+        "variant": "primary"
+      },
+      {
+        "id": "campaign-magnificat",
+        "label": "Lift up the lowly",
+        "description": "Join CAFOD's justice campaigns",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-magnificat",
+        "label": "More Advent prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "advent-john-baptist",
+    "title": "Prepare the Way",
+    "text": "God of the wilderness,\nyou sent John the Baptist to cry out:\n'Prepare the way of the Lord!'\n\nPrepare the way in our hearts —\nclear the clutter of consumerism,\nlevel the mountains of pride,\nfill the valleys of despair.\n\nMake straight in us a path\nfor your Son to enter.\n\nLet this Advent be different.\nLet it be honest.\nLet it be holy.\n\nAmen.",
+    "scripture": "A voice of one calling in the wilderness, 'Prepare the way for the Lord, make straight paths for him.' — Mark 1:3",
+    "reflection": "What needs to be cleared away in my life to make room for Christ this Christmas?",
+    "attribution": "Advent Preparation Prayer",
+    "source": "Based on Mark 1:1-8",
+    "season": "advent",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "newsletter-baptist",
+        "label": "Advent calendar of prayer",
+        "description": "Daily reflections from CAFOD",
+        "href": "https://cafod.org.uk/news/subscribe",
+        "variant": "primary"
+      },
+      {
+        "id": "donate-baptist",
+        "label": "Give a meaningful gift",
+        "href": "https://cafod.org.uk/give",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-baptist",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "advent-homeless",
+    "title": "For Those With No Room",
+    "text": "Lord Jesus, born in a stable\nbecause there was no room at the inn,\nbe close to all who have no home this night.\n\nBe with those sleeping rough in our cities.\nBe with families in temporary shelters.\nBe with refugees in overcrowded camps.\nBe with children who know no stability.\n\nForgive us when we say 'no room' —\nno room in our budgets,\nno room in our neighbourhoods,\nno room in our hearts.\n\nMake room in us, Lord,\nfor the stranger, the outcast, the forgotten.\n\nAmen.",
+    "scripture": "She wrapped him in cloths and placed him in a manger, because there was no guest room available for them. — Luke 2:7",
+    "reflection": "Where can I make room for someone who has been excluded?",
+    "attribution": "Advent Prayer for the Homeless",
+    "source": "CAFOD Housing Justice Resources",
+    "season": "advent",
+    "theme": "emergency-crisis",
+    "backgroundImage": "https://images.unsplash.com/photo-1477346611705-65d1883cee1e?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "donate-homeless",
+        "label": "Support CAFOD's shelter work",
+        "description": "Help families find safe homes",
+        "href": "https://cafod.org.uk/give",
+        "variant": "primary"
+      },
+      {
+        "id": "campaign-homeless",
+        "label": "Campaign for housing justice",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-homeless",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+
+  {
+    "id": "ordinary-morning",
+    "title": "Morning Offering",
+    "text": "Lord, I offer you this day —\nall that I think, and do, and say.\n\nUnite my work with yours.\nUnite my joys with yours.\nUnite my struggles with yours.\n\nMay every conversation be an act of love.\nMay every task be done with care.\nMay every encounter be a moment of grace.\n\nAnd at the end of this day,\nmay I look back and see your hand\nin everything.\n\nAmen.",
+    "scripture": "This is the day the Lord has made; let us rejoice and be glad in it. — Psalm 118:24",
+    "reflection": "How can I offer this ordinary day to God in an extraordinary way?",
+    "attribution": "Traditional Morning Offering",
+    "source": "Adapted from the Apostleship of Prayer",
+    "season": "ordinary",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "newsletter-morning",
+        "label": "Daily prayer emails",
+        "description": "Start each day with CAFOD's reflection",
+        "href": "https://cafod.org.uk/news/subscribe",
+        "variant": "primary"
+      },
+      {
+        "id": "donate-morning",
+        "label": "Support CAFOD",
+        "href": "https://cafod.org.uk/give",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-morning",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "ordinary-evening",
+    "title": "An Evening Prayer",
+    "text": "Lord, as the day draws to a close,\nI bring you everything —\nthe moments of kindness and the moments of failure,\nthe conversations that lifted me and those that drained me.\n\nThank you for walking with me through it all.\n\nForgive what needs forgiving.\nHeal what needs healing.\nAnd grant me peaceful rest,\nthat I may rise tomorrow\nready to serve you with a fresh heart.\n\nInto your hands, O Lord,\nI commend my spirit.\n\nAmen.",
+    "scripture": "In peace I will lie down and sleep, for you alone, Lord, make me dwell in safety. — Psalm 4:8",
+    "reflection": "What moment today am I most grateful for? What moment do I wish had gone differently?",
+    "attribution": "Evening Prayer (Compline)",
+    "source": "Based on the Liturgy of the Hours",
+    "season": "ordinary",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1472120435266-95c21ff60c7b?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "newsletter-evening",
+        "label": "Weekly reflections",
+        "description": "CAFOD's Friday gospel reflection",
+        "href": "https://cafod.org.uk/news/subscribe",
+        "variant": "primary"
+      },
+      {
+        "id": "donate-evening",
+        "label": "Support CAFOD's work",
+        "href": "https://cafod.org.uk/give",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-evening",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "ordinary-trust",
+    "title": "A Prayer of Trust",
+    "text": "Lord, I don't know what today will bring,\nbut I know that you are with me.\n\nWhen the path is unclear, you are my guide.\nWhen the burden is heavy, you are my strength.\nWhen the future is uncertain, you are my hope.\n\nI place my trust in you —\nnot because life is easy,\nbut because you are faithful.\n\nNot because I understand your plan,\nbut because I know your heart.\n\nLead me, Lord. I will follow.\n\nAmen.",
+    "scripture": "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight. — Proverbs 3:5–6",
+    "reflection": "What am I trying to control that I need to trust to God?",
+    "attribution": "Prayer of Trust",
+    "source": "Based on Proverbs 3",
+    "season": "ordinary",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1500534314263-a834e0bb5f0c?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "explore-trust",
+        "label": "Browse more prayers",
+        "href": "#explore",
+        "variant": "primary"
+      },
+      {
+        "id": "newsletter-trust",
+        "label": "Weekly prayer emails",
+        "href": "https://cafod.org.uk/news/subscribe",
+        "variant": "secondary"
+      },
+      {
+        "id": "donate-trust",
+        "label": "Support CAFOD →",
+        "href": "https://cafod.org.uk/give",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "ordinary-justice",
+    "title": "A Prayer for Justice",
+    "text": "God of justice,\nyou hear the cry of the oppressed\nand you do not turn away.\n\nWe pray for a world where every person is treated with dignity —\nwhere no one goes hungry while others waste food,\nwhere no one is enslaved while others profit,\nwhere no child is denied an education\nbecause of where they were born.\n\nMake us restless until justice is done.\nMake us bold enough to name injustice when we see it.\nMake us generous enough to pay the cost of change.\n\nYour kingdom come, your will be done,\non earth as it is in heaven.\n\nAmen.",
+    "scripture": "He has shown you, O mortal, what is good. And what does the Lord require of you? To act justly and to love mercy and to walk humbly with your God. — Micah 6:8",
+    "reflection": "What injustice have I become too comfortable with?",
+    "attribution": "CAFOD Justice Prayer",
+    "source": "Catholic Social Teaching: Justice and Peace",
+    "season": "ordinary",
+    "theme": "hunger-poverty",
+    "backgroundImage": "https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "campaign-justice",
+        "label": "Take action for justice",
+        "description": "Join CAFOD's current campaigns",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "primary"
+      },
+      {
+        "id": "write-mp-justice",
+        "label": "Write to your MP",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-justice",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "ordinary-neighbour",
+    "title": "Who Is My Neighbour?",
+    "text": "Lord Jesus, when asked 'Who is my neighbour?'\nyou told the story of a man left for dead\nand the stranger who stopped to help.\n\nThe priest walked by.\nThe Levite walked by.\nBut the Samaritan stopped.\n\nHelp me to stop.\n\nWhen I see need, help me not to cross the road.\nWhen I see suffering, help me not to look away.\nWhen I see injustice, help me not to stay silent.\n\nMake me a neighbour to someone today.\n\nAmen.",
+    "scripture": "Which of these three do you think was a neighbour to the man who fell into the hands of robbers? The expert in the law replied, 'The one who had mercy on him.' Jesus told him, 'Go and do likewise.' — Luke 10:36–37",
+    "reflection": "Who has God placed in my path today that I might be tempted to walk past?",
+    "attribution": "Good Samaritan Prayer",
+    "source": "Based on Luke 10:25-37",
+    "season": "ordinary",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "donate-neighbour",
+        "label": "Be a neighbour worldwide",
+        "description": "Support CAFOD's global community work",
+        "href": "https://cafod.org.uk/give",
+        "variant": "primary"
+      },
+      {
+        "id": "campaign-neighbour",
+        "label": "Stand up for your neighbour",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-neighbour",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "ordinary-thankfulness",
+    "title": "A Prayer of Thankfulness",
+    "text": "Lord, today I choose gratitude.\n\nFor the gift of life — thank you.\nFor the people who love me — thank you.\nFor the food that nourishes me — thank you.\nFor the beauty of creation — thank you.\nFor the faith that sustains me — thank you.\n\nEven for the struggles that shape me,\neven for the questions that deepen me,\neven for the darkness that teaches me to seek the light —\nthank you.\n\nMay my life be one long act of thanksgiving.\n\nAmen.",
+    "scripture": "Give thanks in all circumstances; for this is God's will for you in Christ Jesus. — 1 Thessalonians 5:18",
+    "reflection": "What is one thing I've been taking for granted that I can give thanks for today?",
+    "attribution": "Prayer of Thanksgiving",
+    "source": "Based on 1 Thessalonians 5",
+    "season": "ordinary",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "explore-thanks",
+        "label": "More prayers",
+        "href": "#explore",
+        "variant": "primary"
+      },
+      {
+        "id": "donate-thanks",
+        "label": "Give thanks by giving",
+        "href": "https://cafod.org.uk/give",
+        "variant": "secondary"
+      },
+      {
+        "id": "newsletter-thanks",
+        "label": "Weekly reflections →",
+        "href": "https://cafod.org.uk/news/subscribe",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "ordinary-workers",
+    "title": "For Workers and the Unemployed",
+    "text": "God of all labour,\nyou placed us in this world to work and to create.\n\nBless those who work today —\nin fields and factories, in hospitals and homes,\nin offices and on the streets.\n\nProtect those whose work is dangerous.\nGive rest to those whose work is exhausting.\nBring justice to those whose labour is exploited.\n\nAnd for those who cannot find work —\nwho send out applications that go unanswered,\nwho feel invisible and forgotten —\nrenew their hope and open doors.\n\nMay all work serve the common good.\n\nAmen.",
+    "scripture": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters. — Colossians 3:23",
+    "reflection": "How can I bring more dignity and purpose to my own work today?",
+    "attribution": "Prayer for Workers",
+    "source": "Catholic Social Teaching: Dignified Work",
+    "season": "ordinary",
+    "theme": "hunger-poverty",
+    "backgroundImage": "https://images.unsplash.com/photo-1500049242364-5f500807cdd7?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "campaign-workers",
+        "label": "Campaign for fair work",
+        "description": "Support workers' rights worldwide",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "primary"
+      },
+      {
+        "id": "donate-workers",
+        "label": "Support livelihoods",
+        "href": "https://cafod.org.uk/give",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-workers",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "ordinary-wisdom",
+    "title": "A Prayer for Wisdom",
+    "text": "Lord, grant me wisdom —\nnot the cleverness of the world,\nbut the deep knowing that comes from you.\n\nWisdom to choose what is right when what is easy beckons.\nWisdom to speak words that heal, not wound.\nWisdom to listen before I judge.\nWisdom to act with love, not fear.\n\nYou gave Solomon wisdom when he asked for it.\nI ask for it too —\nnot for my own glory,\nbut to serve you and your people well.\n\nAmen.",
+    "scripture": "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you. — James 1:5",
+    "reflection": "What decision am I facing that most needs God's wisdom?",
+    "attribution": "Prayer for Wisdom",
+    "source": "Based on 1 Kings 3 and James 1",
+    "season": "ordinary",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1476611338391-6f395a0ebc7b?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "explore-wisdom",
+        "label": "More prayers",
+        "href": "#explore",
+        "variant": "primary"
+      },
+      {
+        "id": "newsletter-wisdom",
+        "label": "Weekly gospel reflection",
+        "href": "https://cafod.org.uk/news/subscribe",
+        "variant": "secondary"
+      },
+      {
+        "id": "donate-wisdom",
+        "label": "Support CAFOD →",
+        "href": "https://cafod.org.uk/give",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "ordinary-family",
+    "title": "A Prayer for Families",
+    "text": "Loving God,\nyou placed us in families —\nnot perfect ones, but real ones.\n\nBless our families today.\nBless the bonds that hold us together\nand heal the wounds that pull us apart.\n\nFor families separated by war — reunite them.\nFor families broken by poverty — sustain them.\nFor families grieving a loss — comfort them.\nFor families struggling to communicate — give them patience.\n\nMay every home be a place of love,\nand every family a reflection of your own.\n\nAmen.",
+    "scripture": "As for me and my household, we will serve the Lord. — Joshua 24:15",
+    "reflection": "What can I do today to strengthen the bonds within my own family?",
+    "attribution": "Prayer for Families",
+    "source": "CAFOD Family Resources",
+    "season": "ordinary",
+    "theme": "community-faith",
+    "backgroundImage": "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "donate-family",
+        "label": "Support families worldwide",
+        "description": "Help CAFOD protect families in crisis",
+        "href": "https://cafod.org.uk/give",
+        "variant": "primary"
+      },
+      {
+        "id": "newsletter-family",
+        "label": "Family prayer resources",
+        "href": "https://cafod.org.uk/news/subscribe",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-family",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "ordinary-laudato-si",
+    "title": "Laudato Si' — Praise Be to You",
+    "text": "Praise be to you, my Lord,\nthrough our Sister, Mother Earth,\nwho sustains and governs us.\n\nAll-powerful God,\nyou are present in the whole universe\nand in the smallest of your creatures.\n\nPour out upon us the power of your love,\nthat we may protect life and beauty.\nFill us with peace,\nthat we may live as brothers and sisters,\nharming no one.\n\nTouch the hearts of those who look only for gain\nat the expense of the poor and the earth.\n\nHelp us to hear both the cry of the earth\nand the cry of the poor.\n\nAmen.",
+    "scripture": "The heavens declare the glory of God; the skies proclaim the work of his hands. — Psalm 19:1",
+    "reflection": "How am I responding to the cry of the earth and the cry of the poor?",
+    "attribution": "Pope Francis",
+    "source": "Adapted from Laudato Si' (2015), paragraphs 246 and closing prayer",
+    "season": "ordinary",
+    "theme": "environment",
+    "backgroundImage": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "campaign-laudato",
+        "label": "Join the climate campaign",
+        "description": "CAFOD's Laudato Si' pledge",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "primary"
+      },
+      {
+        "id": "donate-laudato",
+        "label": "Support green communities",
+        "href": "https://cafod.org.uk/give",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-laudato",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "ordinary-peace-world",
+    "title": "For Peace in Our World",
+    "text": "God of peace,\nwe pray for our broken world.\n\nWhere bombs fall, send your protection.\nWhere hatred divides, send your reconciliation.\nWhere violence destroys, send your healing.\n\nGive wisdom to leaders who hold the power of war and peace.\nGive courage to peacemakers who risk their lives for others.\nGive comfort to civilians caught in conflicts they did not choose.\n\nWe long for the day when swords are beaten into ploughshares\nand nations learn war no more.\n\nPrince of Peace, hasten that day.\n\nAmen.",
+    "scripture": "Blessed are the peacemakers, for they will be called children of God. — Matthew 5:9",
+    "reflection": "Where in my own life can I choose peace over conflict today?",
+    "attribution": "Prayer for World Peace",
+    "source": "Based on Isaiah 2:4 and the Beatitudes",
+    "season": "ordinary",
+    "theme": "peace-conflict",
+    "backgroundImage": "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "campaign-peace-world",
+        "label": "Campaign for peace",
+        "description": "Join CAFOD's peacebuilding work",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "primary"
+      },
+      {
+        "id": "donate-peace-world",
+        "label": "Support peace programmes",
+        "href": "https://cafod.org.uk/give",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-peace-world",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "ordinary-harvest",
+    "title": "A Harvest Prayer",
+    "text": "Lord of the harvest,\nwe thank you for the earth that feeds us,\nfor the rain that waters the ground,\nfor the sun that ripens the grain,\nand for the hands that gather it in.\n\nWe remember that not all harvests are equal.\nSome fields lie parched while others flood.\nSome farmers reap abundance while others lose everything.\n\nTeach us to share the earth's bounty fairly —\nso that all may eat,\nall may be nourished,\nand none may go hungry\nin a world of plenty.\n\nAmen.",
+    "scripture": "The earth has yielded its harvest; God, our God, has blessed us. — Psalm 67:6",
+    "reflection": "How can I be more mindful of where my food comes from and who grows it?",
+    "attribution": "Harvest Thanksgiving Prayer",
+    "source": "CAFOD Harvest Fast Day Resources",
+    "season": "ordinary",
+    "theme": "hunger-poverty",
+    "backgroundImage": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "donate-harvest",
+        "label": "Give to Harvest Fast Day",
+        "description": "Help families grow enough to eat",
+        "href": "https://cafod.org.uk/give",
+        "variant": "primary"
+      },
+      {
+        "id": "campaign-food",
+        "label": "Campaign for food justice",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-harvest",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "ordinary-st-francis",
+    "title": "The Canticle of the Sun",
+    "text": "Most High, all-powerful, all-good Lord,\nall praise is yours, all glory, all honour,\nand all blessing.\n\nBe praised, my Lord, through all your creatures,\nespecially through my lord Brother Sun,\nwho brings the day; and you give light through him.\n\nBe praised, my Lord, through Sister Moon and the stars;\nin the heavens you have made them bright, precious, and beautiful.\n\nBe praised, my Lord, through Sister Water;\nshe is very useful and humble and precious and pure.\n\nBe praised, my Lord, through our sister Mother Earth,\nwho feeds us and rules us,\nand produces various fruits with coloured flowers and herbs.\n\nPraise and bless my Lord, and give thanks,\nand serve him with great humility.\n\nAmen.",
+    "scripture": "Let everything that has breath praise the Lord. — Psalm 150:6",
+    "reflection": "Which part of creation am I most drawn to praise God for today?",
+    "attribution": "St. Francis of Assisi",
+    "source": "Canticle of the Sun (1224)",
+    "season": "ordinary",
+    "theme": "environment",
+    "backgroundImage": "https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=1920&q=80",
+    "nextActions": [
+      {
+        "id": "campaign-creation-ordinary",
+        "label": "Care for Sister Earth",
+        "description": "Join CAFOD's environmental campaign",
+        "href": "https://cafod.org.uk/campaign",
+        "variant": "primary"
+      },
+      {
+        "id": "donate-creation-ordinary",
+        "label": "Protect creation",
+        "href": "https://cafod.org.uk/give",
+        "variant": "secondary"
+      },
+      {
+        "id": "explore-creation-ordinary",
+        "label": "More prayers →",
+        "href": "#explore",
+        "variant": "ghost"
+      }
+    ]
   }
 ]
