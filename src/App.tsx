@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import { EntryScreen }        from './components/EntryScreen';
 import { MoodSelector }       from './components/MoodSelector';
 import type { MoodId }        from './components/MoodSelector';
@@ -16,6 +16,7 @@ import { useA11yPrefs }       from './hooks/useA11yPrefs';
 import { useLiturgicalDay }   from './hooks/useLiturgicalDay';
 import { useHashRoute }       from './hooks/useHashRoute';
 import { useImagePreload }    from './hooks/useImagePreload';
+import type { AppPage } from './types/app';
 import type { LiturgicalSeason, PrayerTheme } from './types/prayer';
 import prayersData from './data/prayers.json';
 import type { Prayer } from './types/prayer';
@@ -115,8 +116,33 @@ export default function App() {
   const [mood,         setMood]         = useState<MoodId | null>(null);
   const [textRevealed, setTextRevealed] = useState(false);
 
-  // Prayer selection depends on both season and mood
-  const prayer  = useMemo(() => getTodaysPrayer(liturgicalDay.season, mood), [liturgicalDay.season, mood]);
+  // Override prayer — set when user picks a specific prayer from Explore.
+  // Skips entry + mood screens, goes straight to the immersive reveal.
+  const [overridePrayer, setOverridePrayer] = useState<Prayer | null>(null);
+
+  // Prayer selection: override wins, otherwise mood-aware daily selection
+  const dailyPrayer = useMemo(() => getTodaysPrayer(liturgicalDay.season, mood), [liturgicalDay.season, mood]);
+  const prayer = overridePrayer ?? dailyPrayer;
+
+  // "Pray this" from Explore — set override, skip entry+mood, go to reveal
+  const handlePrayThis = useCallback((p: Prayer) => {
+    setOverridePrayer(p);
+    setEntryDone(true);
+    setMood('pausing');       // needs a non-null mood to pass the gate
+    setTextRevealed(false);   // reset so staggered reveal plays fresh
+    setPage('home');
+  }, [setPage]);
+
+  // Navigate via nav tabs — reset to normal daily flow when going to Today
+  const handleNavigate = useCallback((target: AppPage) => {
+    if (target === 'home' && overridePrayer) {
+      setOverridePrayer(null);
+      setEntryDone(prefs.reducedMotion);
+      setMood(null);
+      setTextRevealed(false);
+    }
+    setPage(target);
+  }, [setPage, overridePrayer, prefs.reducedMotion]);
   const { hasPrayed, count, handlePray } = usePrayerEngagement(prayer.id);
   const ttsText = useMemo(() => composeTtsText(prayer), [prayer]);
 
@@ -232,7 +258,7 @@ export default function App() {
                   {(prayer.nextActions?.length ?? 0) > 0 && (
                     <NextActions
                       nextActions={prayer.nextActions!}
-                      onNavigate={setPage}
+                      onNavigate={handleNavigate}
                     />
                   )}
                 </div>
@@ -243,15 +269,15 @@ export default function App() {
       )}
 
       {/* ── Stub pages ─────────────────────────────────────────── */}
-      {page === 'explore' && <ExploreScreen prayers={prayers} onNavigate={setPage} />}
-      {page === 'act'     && <ActScreen     onNavigate={setPage} />}
-      {page === 'about'   && <AboutScreen   onNavigate={setPage} />}
+      {page === 'explore' && <ExploreScreen prayers={prayers} onNavigate={handleNavigate} onPrayThis={handlePrayThis} />}
+      {page === 'act'     && <ActScreen     onNavigate={handleNavigate} />}
+      {page === 'about'   && <AboutScreen   onNavigate={handleNavigate} />}
 
       {/* ── Persistent chrome ──────────────────────────────────── */}
       <CAFODNav
         visible={!praying}
         currentPage={page}
-        onNavigate={setPage}
+        onNavigate={handleNavigate}
       />
       <AccessibilityPanel
         prefs={prefs}

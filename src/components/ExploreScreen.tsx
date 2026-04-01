@@ -5,6 +5,7 @@ import type { Prayer, LiturgicalSeason, PrayerTheme } from '../types/prayer';
 interface ExploreScreenProps {
   prayers: Prayer[];
   onNavigate: (page: AppPage) => void;
+  onPrayThis: (prayer: Prayer) => void;
 }
 
 const SEASON_LABELS: Record<LiturgicalSeason, string> = {
@@ -36,7 +37,7 @@ function firstLine(text: string): string {
   return line.length > 80 ? line.slice(0, 77) + '...' : line;
 }
 
-export function ExploreScreen({ prayers, onNavigate }: ExploreScreenProps) {
+export function ExploreScreen({ prayers, onNavigate, onPrayThis }: ExploreScreenProps) {
   const [seasonFilter, setSeasonFilter] = useState<SeasonFilter>('all');
   const [themeFilter, setThemeFilter]   = useState<PrayerTheme | null>(null);
   const [expandedId, setExpandedId]     = useState<string | null>(null);
@@ -227,6 +228,14 @@ export function ExploreScreen({ prayers, onNavigate }: ExploreScreenProps) {
                           )}
                         </div>
                       )}
+
+                      {/* Pray this — launches full immersive experience */}
+                      <button
+                        onClick={() => onPrayThis(prayer)}
+                        className="w-full mt-4 px-6 py-3 bg-cafod-navy text-white font-cafod font-bold text-sm rounded-br-2xl rounded-tl-lg hover:bg-cafod-navy-dark transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-cafod-navy focus:ring-offset-2"
+                      >
+                        Pray this
+                      </button>
                     </div>
                   </div>
                 )}
